@@ -21,7 +21,7 @@ else:
     sys.exit(1)
 
 samplerate = 16000
-output_filename = "temp_recording.wav"
+output_filename = "/tmp/dictaphone_recording.wav"
 
 recording = False
 audio_data = []
