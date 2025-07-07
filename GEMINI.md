@@ -53,3 +53,6 @@ Dacă nu specificați un `model_name`, scriptul va afișa o listă cu modelele d
 *   `python3 dictafon.py medium`
 
 După pornirea scriptului, apăsați `F12` pentru a începe înregistrarea și `F12` din nou pentru a o opri și a transcrie. Textul transcris va fi tastat automat în aplicația activă.
+
+### Pasul 4: Integrarea in OS cu ajutorul xdotool
+In faza acuala dictarea apare in terminal, doresc ca aceasta sa fie "scris" unde am cursorul, de exmplu in chatbox-ul din programul 'gemini cli'
