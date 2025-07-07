@@ -2,7 +2,7 @@
 
 ---
 
-Un dictafon personalizat pentru sistemele Debian bazat pe Vosk, conceput pentru a transforma vorbirea în text în timp real (sau aproape real-time) și a o introduce direct în orice aplicație, folosind `xdotool`.
+Un dictafon personalizat pentru sistemele Debian bazat pe Whisper, conceput pentru a transforma vorbirea în text în timp real (sau aproape real-time) și a o introduce direct în orice aplicație, folosind `xdotool`.
 
 ## ✨ Caracteristici
 
@@ -13,7 +13,7 @@ Un dictafon personalizat pentru sistemele Debian bazat pe Vosk, conceput pentru 
 ## 🚀 Cum Funcționează
 
 1.  **Captură Audio:** Sistemul captează fluxul audio de la microfon la apasare unei combinatii de taste si termina de capturat cand eliberez tastele.
-2.  **Procesare ASR:** Datele audio sunt trimise către motorul de recunoaștere vocală ales (Vosk sau Whisper).
+2.  **Procesare ASR:** Datele audio sunt trimise către motorul de recunoaștere vocală ales (Whisper).
 3.  **Conversie Text:** Motorul ASR transformă vorbirea în text.
 4.  **Introducere Text:** Textul rezultat este apoi simulat ca intrare de tastatură folosind `xdotool`, scriind în aplicația activă.
 
